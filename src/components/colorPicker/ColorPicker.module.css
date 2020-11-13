@@ -1,0 +1,25 @@
+.colorBody {
+  text-align: center;
+  margin-top: 20px;
+}
+.colorBox {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+.sliderList {
+  display: flex;
+}
+.sliderItem {
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
+.button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 5px;
+  margin-top: 50px;
+}

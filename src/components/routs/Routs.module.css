@@ -1,0 +1,22 @@
+:global(a) {
+  text-decoration: none;
+  color: black;
+}
+:global(a:hover) {
+  color: red;
+}
+:global(li) {
+  list-style-type: none;
+}
+.activeLink {
+  color: red;
+}
+.routList {
+  display: flex;
+}
+.routItem {
+  padding: 10px 20px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+}

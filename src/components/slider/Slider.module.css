@@ -1,0 +1,27 @@
+.sliderList {
+  text-align: center;
+  align-items: center;
+}
+.sliderItem {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.sliderModal {
+  width: 60%;
+  background-color: #fff;
+}
+.text {
+  margin: 0;
+  margin-left: 10px;
+  width: 50px;
+}
+.buttons {
+  display: table;
+  margin: 20px auto;
+}
+.buttons button + button {
+  margin-left: 20px;
+}
