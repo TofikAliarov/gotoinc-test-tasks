@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Routs from "./components/routs/Routs";
 import store from "./redux/store";
 import { Provider } from "react-redux";
