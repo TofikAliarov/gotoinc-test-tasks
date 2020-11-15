@@ -24,17 +24,6 @@ const modalBackDrop = (WrappedComponent) => {
       this.props.close();
     };
 
-    closeModalKeydown = (evt) => {
-      if (evt.code === "Escape") {
-        this.closeModal();
-      }
-    };
-
-    closeModalOverlay = (evt) => {
-      if (evt.target.dataset.type === "modal") {
-        this.closeModal();
-      }
-    };
     render() {
       return (
         <div data-type="modal" className={styles.modal}>
